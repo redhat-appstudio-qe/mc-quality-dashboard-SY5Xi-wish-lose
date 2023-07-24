@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-geps
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-cnfw-tenant/mc-quality-dashboard/backend-quality-dashboard-geps@sha256:4ecd9a12aaa55f383225fa9c731cc15d66a3a2216383647e4c006465ae3c8a36
         imagePullPolicy: Always
         name: container-image
         ports:
